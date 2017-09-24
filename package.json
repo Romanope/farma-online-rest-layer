@@ -1,0 +1,26 @@
+{
+  "name": "rest-layer",
+  "version": "1.0.0",
+  "description": "projeto da disciplina de estudo de caso de computacao movel - camada rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romanope/farma-online-rest-layer.git"
+  },
+  "author": "carlos romano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romanope/farma-online-rest-layer/issues"
+  },
+  "homepage": "https://github.com/Romanope/farma-online-rest-layer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "currency-formatter": "^1.2.1",
+    "express": "^4.15.4",
+    "mysql": "^2.14.1",
+    "path": "^0.12.7"
+  }
+}
