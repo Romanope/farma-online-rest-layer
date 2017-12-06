@@ -53,6 +53,14 @@ create table PRODUTO_FARMACIA(
 
 )engine=innoDB;
 
+create table NUMERO (
+    
+    NUM_ID integer NOT NULL AUTO_INCREMENT,
+    NUM_NR varchar(20) NOT NULL,
+    primary key(NUM_ID)
+
+)engine=innoDB;
+
 alter table PRODUTO_FARMACIA add constraint FK_PRODUTO_FARMACIA foreign key(PRO_ID) references produto(PRO_ID);
 alter table PRODUTO_FARMACIA add constraint FK_FARMACIA_PRODUTO foreign key(FAR_ID) references farmacia(FAR_ID);
 
